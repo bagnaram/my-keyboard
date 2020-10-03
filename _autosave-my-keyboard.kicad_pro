@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -97,15 +97,13 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.051,
-        "solder_mask_min_width": 0.25,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "solder_paste_margin_ratio": 0.0
       },
       "track_widths": [
-        0.254,
-        0.2032,
-        0.254
+        0.25
       ],
       "via_dimensions": [
         {
@@ -121,183 +119,12 @@
   "cvpcb": {
     "equivalence_files": []
   },
-  "erc": {
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_label_syntax": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_sheet_names": "error",
-      "global_label_dangling": "error",
-      "hier_label_mismatch": "error",
-      "label_dangling": "error",
-      "multiple_net_names": "error",
-      "net_not_bus_member": "error",
-      "no_connect_connected": "error",
-      "no_connect_dangling": "error",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "error",
-      "similar_labels": "error",
-      "unresolved_variable": "error"
-    }
-  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "my-keyboard.kicad_pro",
+    "filename": "_autosave-my-keyboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,45 +139,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "track_width": 0.254,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 5.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "nets": [],
-        "track_width": 0.381,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 5.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "usb",
-        "nets": [
-          "D+",
-          "D-"
-        ],
-        "track_width": 0.254,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 5.0
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -362,7 +154,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "my-keyboard.net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vmrl": ""
@@ -370,34 +162,9 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "drawing": {
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
-      "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
-      "field_names": [],
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
-    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
-    "meta": {
-      "version": 0
-    },
-    "net_format_name": "Pcbnew",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
-    "spice_adjust_passive_values": false,
-    "spice_external_command": "spice \"%I\"",
-    "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "legacy_lib_list": []
   },
-  "sheets": [
-    [
-      "a16fcc0b-e3ef-48dd-988d-9695e2926e08",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
