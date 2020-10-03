@@ -7,4 +7,4 @@
 
 ![splendens](./doc/splendens.png)
 ![](./doc/my-keyboard.png)
-![](./doc/my-keyboard-bottom.jpeg)
+![](./doc/my-keyboard-back.jpeg)
