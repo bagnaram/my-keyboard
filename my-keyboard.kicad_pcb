@@ -3581,7 +3581,7 @@
     (property "Sheet file" "/Users/mbagnara/Documents/my-keyboard/my-keyboard.kicad_sch")
     (property "Sheet name" "")
     (path "/00000000-0000-0000-0000-00005e918fb0")
-    (fp_text reference "J1" (at 2.3 -1.5) (layer "F.SilkS")
+    (fp_text reference "ISP1" (at 0 -3.96875) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c41b4fe-ef10-49f7-884d-d83814bbf68e)
     )
