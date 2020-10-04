@@ -5031,7 +5031,7 @@
   )
 
   (module "cftkb:MountingHole_2.2mm_M2_Pad" (layer "F.Cu") (tedit 5CFB748D) (tstamp 4e7d4e2f-9ce0-4b48-a38c-4e080d0681b6)
-    (at 230.98125 213.51875)
+    (at 230.98125 203.99375)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -5053,7 +5053,7 @@
   )
 
   (module "cftkb:MountingHole_2.2mm_M2_Pad" (layer "F.Cu") (tedit 5CFB748D) (tstamp 545a7518-5557-42fe-a890-3385c6ba1ac4)
-    (at 380.20625 213.51875)
+    (at 342.9 197.64375)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
@@ -5071,7 +5071,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (tstamp 513fbb42-7a17-4b36-b347-b555d873fa51))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (tstamp 7537c305-705c-4c78-9271-24c8217b4a48))
-    (pad "1" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (tstamp 0f1f7c3f-e637-46cc-a3bb-1d4b37362408))
+    (pad "1" thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask) (tstamp 6c277ec1-6740-44cf-a858-633afed7658e))
   )
 
   (module "cftkb:MountingHole_2.2mm_M2_Pad" (layer "F.Cu") (tedit 5CFB748D) (tstamp 5efcd871-b97c-4f3d-9a2e-7fa75333a2b9)
@@ -7369,7 +7369,7 @@
   )
 
   (module "cftkb:MountingHole_2.2mm_M2_Pad" (layer "F.Cu") (tedit 5CFB748D) (tstamp e489311d-06ea-474d-b15e-e50c3c9c2a04)
-    (at 83.34375 213.51875)
+    (at 125.4125 200.025)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
