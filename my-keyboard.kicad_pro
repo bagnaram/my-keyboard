@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 0.0,
+          "height": 0.9,
+          "width": 0.3
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -395,7 +395,7 @@
   },
   "sheets": [
     [
-      "7e64a8d4-f480-4e48-84be-9cfb90467d40",
+      "b2090e2f-7756-4542-9065-96f6e5d1569d",
       ""
     ]
   ],
