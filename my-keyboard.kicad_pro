@@ -26,8 +26,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.9,
-          "width": 0.3
+          "height": 1.4,
+          "width": 0.975
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -105,7 +105,8 @@
       "track_widths": [
         0.254,
         0.2032,
-        0.254
+        0.254,
+        0.381
       ],
       "via_dimensions": [
         {
@@ -395,7 +396,7 @@
   },
   "sheets": [
     [
-      "b2090e2f-7756-4542-9065-96f6e5d1569d",
+      "b116fd05-b863-4ba3-8a2e-c31cff4e2b39",
       ""
     ]
   ],

@@ -7,4 +7,5 @@
   (lib (name "Random Keyboard Parts")(type "KiCad")(uri "${KIPRJMOD}/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "cftkb")(type "KiCad")(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty/cftkb.pretty")(options "")(descr ""))
   (lib (name "SnapEDA")(type "KiCad")(uri "/Users/mbagnara/Documents/my-keyboard/10137061-00021LF")(options "")(descr ""))
+  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Type-C.pretty")(options "")(descr ""))
 )
