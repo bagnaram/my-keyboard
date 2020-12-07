@@ -1,0 +1,12 @@
+#+TITLE: Ocotillo Keyboard
+
+75% keyboard with ISP programmer and USB-C
+
+* LICENSE
+[[https://i.creativecommons.org/l/by-sa/4.0/88x31.png][Creative Commons License]]
+[[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]
+
+* Keyboard
+[[./doc/ocotillo.png][ocotillo]]
+[[./doc/pcb.png][front]]
+[[./doc/pcb-back.png][back]]
