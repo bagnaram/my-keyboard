@@ -1,18 +1,26 @@
 #+TITLE: Ocotillo Keyboard
 
-75% keyboard with ISP programmer and USB-C
+* KEYBOARD
+60% keyboard with ISP programmer and USB-C
+
+For details on construction please read the assembly blog
+[[https://bagnaram.github.io/blog/2020/12/01/keyboard]]
 
 * LICENSE
 [[https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
 [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]
 
-* Keyboard
+* PHOTOS
 [[./doc/ocotillo.png]]
 [[./doc/pcb.png]]
 [[./doc/pcb-back.png]]
 
 ** BOM
-I purchased everything from Mouser. Keep in mind these are all SMD components except for the USB connector and fuse. Therefore, extra care is necessary to ensure components are properly soldered. Small sensitive components such as the crystal oscillator cannot endure high temperature of a standard iron. Proceed with caution.
+I purchased everything from Mouser. Keep in mind these are all SMD components
+except for the USB connector and fuse. Therefore, extra care is necessary to
+ensure components are properly soldered. Small sensitive components such as the
+crystal oscillator cannot endure high temperature of a standard iron. Proceed
+with caution.
 
 | Reference                                                                                                                                                                                                                                                                | Quantity | Value                    | Footprint                                      | Datasheet                                                                                                                     | SKU                                       | Quoted Part Number   | Order Quantity | Order Price | Min\Mult Order Qty |
 | C1 C2 C3                                                                                                                                                                                                                                                                 |        3 | 0.1uF                    | Capacitor_SMD:C_0805_2012Metric                | Multilayer Ceramic Capacitors MLCC - SMD/SMT Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 5% 25V MLCC                    | CC0805JPX7R8BB104                         | 603-CC0805JPX7R8BB10 |              3 | $0.18       | 1\1                |
